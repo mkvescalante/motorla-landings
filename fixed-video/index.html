@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Motorola Solutions</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <meta name="locale" content="es_xl"> 
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- JQUERY -->
+  <script src="assets/vendor/jquery/jquery-3.7.1.min.js"></script>
+  <!-- Tealium and Trustarc-->
+  <script src="https://consent.trustarc.com/notice?domain=motorolasolutions.com&c=teconsent&js=nj&noticeType=bb&gtm=1&text=true&language=es" crossorigin></script>
+    <script>
+    /** Add utag.js | This is self executing function.*/
+    (function (a, b, c, d) {
+      a = '//tags.tiqcdn.com/utag/motorola/main/prod/utag.js';
+      b = document;
+      c = 'script';
+      d = b.createElement(c);
+      d.src = a;
+      d.type = 'text/java' + c;
+      d.async = true;
+      a = b.getElementsByTagName(c)[0];
+      a.parentNode.insertBefore(d, a);
+    })();
+    $(function () {
+      activityID();
+      setInterval(passUTMparams, 1000);
+    });
+  </script>
+
+</head>
+
+<body>
+  <!-- Tealium -->
+  <script type="text/javascript">
+    const urlParams1 = new URLSearchParams(window.location.search);
+    const contactId = urlParams1.get("utm_contactId");
+    var elq_contact_id;
+    //Reading and assigning value for Contact ID
+    if (contactId != "" && contactId != "undefined" && contactId != null) {
+        elq_contact_id = contactId;
+    } else {
+        elq_contact_id = "No Value";
+    }
+  </script>
+  <script>
+    // <![CDATA[
+    var uri = document.location.pathname;
+    var utag_data = {
+        "page_name": document.title,
+        "page_uri": "/" + document.getElementsByTagName("meta")["locale"].content + "/webApp" + uri,
+        "locale": document.getElementsByTagName("meta")["locale"].content,
+        "page_type": "landing",
+        "campaign_code": document.getElementsByTagName("meta")["keywords"].content,
+        "elq_contact_id":elq_contact_id
+    }
+    // ]]>
+  </script>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+      <a href="index.html" class="logo me-auto" data-uet = '{
+"link-type": "link",
+"link-label": "inicio",
+"link-url": "index.html",
+"link-place": "1",
+"restriction": "public",
+"cname": "image click",
+"page-area": "1"
+}'
+>
+        <img src="assets/img/motorola_solutions.png" alt="Motorola" class="img-fluid">
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <!--
+          <li><a class="nav-link scrollto" href="#contact">Cámaras Corporales V500 y VB400</a></li>
+          <li><a class="nav-link scrollto" href="#contact">VideoManager</a></li>
+          -->
+          <li>
+            <a class="contactus" href="#" data-bs-toggle="modal" data-bs-target="#contactModal" data-uet = '{
+"link-type": "button",
+"link-label": "Contáctenos",
+"link-url": "#contactModal",
+"link-place": "1",
+"restriction": "public",
+"cname": "Contact popup",
+"page-area": "12"
+}'>
+              Contáctenos
+            </a>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Video Seguridad y Analítica de la situación </h1>
+          <h2>Más cámaras grabando, más inteligencia</h2>
+          <p>
+            Los sistemas de video seguridad en puntos críticos son fundamentales para las agencias, tanto para la prevención como para la resolución de casos. Integre un análisis de alta confiabilidad para ayudar a sus equipos a administrar los incidentes, establecer prioridades y tomar decisiones informadas y proactivas.
+          </p>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#contactModal" class="btn-get-started" data-uet = '{
+"link-type": "button",
+"link-label": "Solicite más información",
+"link-url": "#contactModal",
+"link-place": "2",
+"restriction": "public",
+"cname": "hero",
+"page-area": "12"
+}'>
+              Solicite más información
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <main id="main">
+
+    <!-- ======= Services Section ======= -->
+    <section id="cards" class="cards">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Conozca las soluciones para prevenir, anticipar y responder mejor</h2>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="card text-center">
+              <img src="assets/img/icono-video1.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Gestión de video</h5>
+                <p class="card-text">
+                  Avigilon Control Center (ACC) es un software avanzado de gestión de video, diseñado para brindar la información adecuada en el momento preciso. ACC brinda una interfaz de usuario fácil de usar con Inteligencia Artificial (IA) que permite anticipar situaciones y tomar acciones inmediatas.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent">
+                <a href="https://assets.avigilon.com/file_library/pdf/acc7/avigilon-control-center-software-7-flyer-es-LA.pdf" class="cta-btn" target="_blank" data-uet = '{
+"link-type": "link",
+"link-label": "Conozca más",
+"link-url": "https://assets.avigilon.com/file_library/pdf/acc7/avigilon-control-center-software-7-flyer-es-LA.pdf",
+"link-place": "2",
+"restriction": "public",
+"cname": "Gestión de video",
+"page-area": "2"
+}'>
+                  Conozca más
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="card text-center">
+              <img src="assets/img/icono-video2.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Cámaras fijas</h5>
+                <p class="card-text">
+                  Brindan una supervisión eficaz y permiten una respuesta proactiva en tiempo real, lo que aumenta la eficacia en sus operaciones. Diseñadas desde cero para la gestión de video de alta definición con una resolución de hasta 5k (16 MP). 
+                </p>
+              </div>
+              <div class="card-footer bg-transparent">
+                <a href="https://www.motorolasolutions.com/content/dam/msi/docs/Avigilon_H5_Pro_Camera_Flyer_ESP.pdf" class="cta-btn" target="_blank" data-uet = '{
+"link-type": "link",
+"link-label": "Conozca más",
+"link-url": "https://www.motorolasolutions.com/content/dam/msi/docs/Avigilon_H5_Pro_Camera_Flyer_ESP.pdf",
+"link-place": "2",
+"restriction": "public",
+"cname": "Cámaras fijas",
+"page-area": "2"
+}'>
+                  Conozca más
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="card text-center">
+              <img src="assets/img/icono-video3.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Reconocimiento facial</h5>
+                <p class="card-text">
+                  Acelere los tiempos de respuesta identificando rápidamente a las personas de interés gracias a la tecnología de IA. El reconocimiento facial ofrece el contexto para tomar decisiones mejor informadas que le permitan responder a los eventos de manera proactiva.  
+                </p>
+              </div>
+              <div class="card-footer bg-transparent">
+                <a href="https://www.motorolasolutions.com/content/dam/msi/docs/Reconocimiento_facial_ES.pdf" class="cta-btn" target="_blank" data-uet = '{
+"link-type": "link",
+"link-label": "Conozca más",
+"link-url": "https://www.motorolasolutions.com/content/dam/msi/docs/Reconocimiento_facial_ES.pdf",
+"link-place": "2",
+"restriction": "public",
+"cname": "Reconocimiento facial",
+"page-area": "2"
+}'>
+                  Conozca más
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-6 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="card text-center">
+              <img src="assets/img/icono-video4.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Búsqueda por apariencia</h5>
+                <p class="card-text">
+                  Bajo un sofisticado motor de búsqueda de video con AI de aprendizaje profundo, ordena horas de vídeo con facilidad para localizar rápidamente a una persona o vehículo de interés específico ingresando descripciones físicas, cargando una foto o encontrando un ejemplo en el video grabado.   
+                </p>
+              </div>
+              <div class="card-footer bg-transparent">
+                <a href="https://www.motorolasolutions.com/content/dam/msi/docs/avigilon-appearance-search-flyer-es-la-rev9.pdf" class="cta-btn" target="_blank" data-uet = '{
+"link-type": "link",
+"link-label": "Conozca más",
+"link-url": "https://www.motorolasolutions.com/content/dam/msi/docs/avigilon-appearance-search-flyer-es-la-rev9.pdf",
+"link-place": "2",
+"restriction": "public",
+"cname": "Búsqueda por apariencia",
+"page-area": "2"
+}'>
+                  Conozca más
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-6 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="card text-center">
+              <img src="assets/img/icono-video5.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Control de accesos</h5>
+                <p class="card-text">
+                  La plataforma de control de accesos de Motorola Solutions es modular para las necesidades cambiantes de su entorno con soluciones flexibles y escalables.   
+                </p>
+              </div>
+              <div class="card-footer bg-transparent">
+                <a href="https://www.avigilon.com/" class="cta-btn" target="_blank" data-uet = '{
+"link-type": "link",
+"link-label": "Conozca más",
+"link-url": "https://www.avigilon.com/",
+"link-place": "2",
+"restriction": "public",
+"cname": "Control de accesos",
+"page-area": "2"
+}'>
+                  Conozca más
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="zoom-in">
+        <div class="testimonial-item">
+          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+          <p>
+            La tecnología de Avigilon ha proporcionado confiabilidad al sistema y una alta calidad de imagen, así como analítica avanzada. Las cámaras se desplegaron de tal forma para optimizar y resguardar hacia el futuro la inversión del Consejo de la Ciudad y para mantener la seguridad de nuestras comunidades. Ahora tenemos, literal y metafóricamente, una visión global amplia
+          </p>
+
+          <img src="assets/img/warwick_neale.png" class="testimonial-img" alt="">
+          <h3>Warwick Neale</h3>
+          <h4>Gerente del Equipo de Servicios Comunitarios <br>
+          Consejo de la Ciudad de Worcester</h4>
+
+          <a href="https://www.motorolasolutions.com/content/dam/msi/docs/LACR_ESP_Worcester_City_Council.pdf" class="cta-btn" target="_blank" data-uet = '{
+"link-type": "link",
+"link-label": "Conozca el caso completo",
+"link-url": "https://www.motorolasolutions.com/content/dam/msi/docs/LACR_ESP_Worcester_City_Council.pdf",
+"link-place": "2",
+"restriction": "public",
+"cname": "caso de exito",
+"page-area": "2"
+}'>
+            Conozca el caso completo
+          </a>
+
+        </div>
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= CTA Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title-inner pb-5">
+          <img src="assets/img/video-imagen.png" class="img-fluid" alt="">
+          <h2>¿Listo para detectar posibles amenazas de seguridad y mantener el orden público?</h2>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#contactModal" class="btn-learn-more" data-uet = '{
+"link-type": "button",
+"link-label": "Contáctenos",
+"link-url": "#contactModal",
+"link-place": "2",
+"restriction": "public",
+"cname": "cta",
+"page-area": "12"
+}'>
+            Contáctenos
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div class="logo">
+            <img src="assets/img/motorola_white.png" class="img-fluid" alt="Motorola Solutions">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="social-links">
+              <p>Únete a la conversación:</p>
+              <a href="https://www.facebook.com/MotorolaSolutionsLatAm" class="facebook" data-uet = '{
+"link-type": "link",
+"link-label": "Facebook",
+"link-url": "https://www.facebook.com/MotorolaSolutionsLatAm",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a href="https://twitter.com/MotorolaLatAm" class="twitter" data-uet = '{
+"link-type": "link",
+"link-label": "Twitter",
+"link-url": "https://twitter.com/MotorolaLatAm",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                <i class="ri-twitter-x-line"></i>
+              </a>
+              <a href="https://www.youtube.com/user/videosdemotorola" class="youtube" data-uet = '{
+"link-type": "link",
+"link-label": "Youtube",
+"link-url": "https://www.youtube.com/user/videosdemotorola",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                <i class="ri-youtube-fill"></i>
+              </a>
+              <a href="http://www.linkedin.com/company/motorola-solutions-america-latina-y-caribe?" class="linkedin" data-uet = '{
+"link-type": "link",
+"link-label": "Linkedin",
+"link-url": "http://www.linkedin.com/company/motorola-solutions-america-latina-y-caribe",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                <i class="ri-linkedin-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/motorolasolutionslatam" class="instagram" data-uet = '{
+"link-type": "link",
+"link-label": "Instagram",
+"link-url": "https://www.instagram.com/motorolasolutionslatam",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                <i class="ri-instagram-line"></i>
+              </a> 
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12">
+          <p class="pt-2">
+            MOTOROLA, MOTO, MOTOROLA SOLUTIONS y el logotipo M estilizada son marcas comerciales o marcas comerciales registradas de Motorola
+          </p>
+          <p class="pt-0">
+            Trademark Holdings, LLC y se utilizan bajo licencia. Todas las demás marcas comerciales son propiedad de sus respectivos dueños.
+          </p>
+          <p class="pt-0">
+            © 2024 Motorola Solutions, Inc. Todos los derechos reservados.
+          </p>
+        
+          <div class="menu-bottom">
+            <ul>
+              <li>
+                <a href="https://www.motorolasolutions.com/es_xl/about/privacy-policy.html?_gl=1*tbhbs4*_ga*MTExOTA1MTgwMC4xNzA0ODI1MjM3*_ga_23THW5EV9N*MTcwNDgyNTIzNy4xLjEuMTcwNDgyNzQ3OS42MC4wLjA.#highlights" target="_blank" data-uet = '{
+"link-type": "link",
+"link-label": "Privacidad",
+"link-url": "https://www.motorolasolutions.com/es_xl/about/privacy-policy.html",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                  Políticas de privacidad
+                </a>
+              </li>
+              <li>
+                <a href="https://www.motorolasolutions.com/es_xl/preference-center-form.html?_gl=1*wtw8mx*_ga*OTY5NjA5ODA2LjE3MDcyNDM2MTY.*_ga_23THW5EV9N*MTcwNzI1MjczMC4zLjEuMTcwNzI1MzczNC41OC4wLjA." target="_blank" data-uet = '{
+"link-type": "link",
+"link-label": "Preferencias de comunicación",
+"link-url": "https://www.motorolasolutions.com/es_xl/preference-center-form.html",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                  Preferencias de comunicación
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </footer>
+  <!-- Thanks Modal -->
+  <div class="modal fade" id="thanksModal" tabindex="-1" role="dialog" aria-labelledby="Thanks" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-5">
+          <div class="text-center pb-3">
+            <img src="assets/img/favicon.png" alt="Motorola" class="img-fluid" style="max-height:40px">
+          </div>
+          <h3 class="text-center text-dark" style="font-size:30px">
+            ¡Gracias por su interés!
+          </h3>
+          <p class="text-center text-dark" style="font-size:22px">
+            Nuestros especialistas se comunicarán con usted pronto. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Thanks Modal -->
+
+  <!-- Modal Form -->
+  <!-- Contacto -->
+  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="Registro" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body contact">
+          <div class="container modal-form" data-aos="fade-up">
+            <div class="hero-form">
+              <h3 class="text-center">
+                Contáctenos
+              </h3>
+              <form method="post" name="AlwaysOn_Fixed_Video_ES" action="https://s1013191099.t.eloqua.com/e/f2" onsubmit="return handleFormSubmit(this)" id="form4290" class="row gx-3 gy-2">
+                <input value="AlwaysOn_Fixed_Video_ES" type="hidden" name="elqFormName">
+                <input value="1013191099" type="hidden" name="elqSiteId">
+                <input name="elqCampaignId" type="hidden">
+                <div class="col-md-12">
+                  <label for="fe63674" class="form-label">Nombre<span>*</span></label>
+                  <input type="text" class="form-control" name="firstName" id="fe63674">
+                </div>
+                <div class="col-md-12">
+                  <label for="fe63675" class="form-label">Apellidos<span>*</span></label>
+                  <input type="text" class="form-control" name="lastName" id="fe63675">
+                </div>
+                <div class="col-md-12">
+                  <label for="fe63676" class="form-label">Email<span>*</span></label>
+                  <input type="text" class="form-control" name="emailAddress" id="fe63676">
+                </div>
+                <div class="col-md-12">
+                  <label for="fe63677" class="form-label">Empresa<span>*</span></label>
+                  <input type="text" class="form-control" name="company" id="fe63677">
+                </div>
+                <div class="col-md-12">
+                  <label for="fe63678" class="form-label">País</label>
+                  <select class="form-select" id="fe63678" name="country" data-value="">
+                    <option selected>Por favor seleccione</option>
+                    <option value="AG">Antigua y Barbuda
+                    </option>
+                    <option value="AI">Anguilla
+                    </option>
+                    <option value="AR">Argentina
+                    </option>
+                    <option value="AW">Aruba
+                    </option>
+                    <option value="BS">Bahamas
+                    </option>
+                    <option value="BB">Barbados
+                    </option>
+                    <option value="BZ">Belice
+                    </option>
+                    <option value="BM">Bermudas
+                    </option>
+                    <option value="BO">Bolivia
+                    </option>
+                    <option value="BQ">Bonaire, Sint Eustatius y Saba
+                    </option>
+                    <option value="BR">Brasil
+                    </option>
+                    <option value="KY">Islas Caimán
+                    </option>
+                    <option value="CL">Chile
+                    </option>
+                    <option value="CO">Colombia
+                    </option>
+                    <option value="CR">Costa Rica
+                    </option>
+                    <option value="CU">Cuba
+                    </option>
+                    <option value="CW">Curazao
+                    </option>
+                    <option value="DM">Dominica
+                    </option>
+                    <option value="DO">República Dominicana
+                    </option>
+                    <option value="EC">Ecuador
+                    </option>
+                    <option value="SV">El Salvador
+                    </option>
+                    <option value="FK">Falkland Islands (Malvinas)
+                    </option>
+                    <option value="GF">Guayana Francesa
+                    </option>
+                    <option value="GD">Granada
+                    </option>
+                    <option value="GP">Guadaloupe
+                    </option>
+                    <option value="GT">Guatemala
+                    </option>
+                    <option value="GY">Guyana
+                    </option>
+                    <option value="HT">Haití
+                    </option>
+                    <option value="HN">Honduras
+                    </option>
+                    <option value="JM">Jamaica
+                    </option>
+                    <option value="MX">México
+                    </option>
+                    <option value="MS">Montserrat
+                    </option>
+                    <option value="NI">Nicaragua
+                    </option>
+                    <option value="PA">Panamá
+                    </option>
+                    <option value="PY">Paraguay
+                    </option>
+                    <option value="PE">Perú
+                    </option>
+                    <option value="PR">Puerto Rico
+                    </option>
+                    <option value="BL">Saint Barthelemy
+                    </option>
+                    <option value="KN">San Cristóbal y Nieves
+                    </option>
+                    <option value="LC">Santa Lucía
+                    </option>
+                    <option value="MF">Saint Martin
+                    </option>
+                    <option value="VC">San Vicente y las Granadinas
+                    </option>
+                    <option value="SX">Sint Maarten (Dutch part)
+                    </option>
+                    <option value="SR">Surinam
+                    </option>
+                    <option value="TT">Trinidad y Tobago
+                    </option>
+                    <option value="TC">Islas Turcas y Caicos
+                    </option>
+                    <option value="UY">Uruguay
+                    </option>
+                    <option value="VE">Venezuela
+                    </option>
+                    <option value="VG">Islas Vírgenes (Británicas)
+                    </option>
+                    <option value="VI">Islas Vírgenes (USA)
+                    </option>
+                  </select>
+                </div>
+                <div class="col-md-12">
+                  <label for="fe63679" class="form-label">Código de País</label>
+                  <select class="form-select" id="fe63679" name="countryCode" data-value="">
+                    <option value="+1-264">+1-264
+                    </option>
+                    <option value="+1">+1
+                    </option>
+                    <option value="+54">+54
+                    </option>
+                    <option value="+297">+297
+                    </option>
+                    <option value="+501">+501
+                    </option>
+                    <option value="+591">+591
+                    </option>
+                    <option value="+599">+599
+                    </option>
+                    <option value="+55">+55
+                    </option>
+                    <option value="+1-345">+1-345
+                    </option>
+                    <option value="+56">+56
+                    </option>
+                    <option value="+57">+57
+                    </option>
+                    <option value="+506">+506
+                    </option>
+                    <option value="+593">+593
+                    </option>
+                    <option value="+503">+503
+                    </option>
+                    <option value="+594">+594
+                    </option>
+                    <option value="+590">+590
+                    </option>
+                    <option value="+502">+502
+                    </option>
+                    <option value="+592">+592
+                    </option>
+                    <option value="+509">+509
+                    </option>
+                    <option value="+504">+504
+                    </option>
+                    <option value="+52">+52
+                    </option>
+                    <option value="+1-664">+1-664
+                    </option>
+                    <option value="+505">+505
+                    </option>
+                    <option value="+595">+595
+                    </option>
+                    <option value="+507">+507
+                    </option>
+                    <option value="+51">+51
+                    </option>
+                    <option value="+590">+590
+                    </option>
+                    <option value="+1-599">+1-599
+                    </option>
+                    <option value="+1-721">+1-721
+                    </option>
+                    <option value="+597">+597
+                    </option>
+                    <option value="+598">+598
+                    </option>
+                    <option value="+58">+58
+                    </option>
+                    <option value="+1-268">+1-268
+                    </option>
+                    <option value="+1-242">+1-242
+                    </option>
+                    <option value="+1-246">+1-246
+                    </option>
+                    <option value="+1-441">+1-441
+                    </option>
+                    <option value="+1-767">+1-767
+                    </option>
+                    <option value="+1-473">+1-473
+                    </option>
+                    <option value="+1-876">+1-876
+                    </option>
+                    <option value="+1-787, +1-939">+1-787, +1-939
+                    </option>
+                    <option value="+1-869">+1-869
+                    </option>
+                    <option value="+1-758">+1-758
+                    </option>
+                    <option value="+590">+590
+                    </option>
+                    <option value="+1-784">+1-784
+                    </option>
+                    <option value="+1-868">+1-868
+                    </option>
+                    <option value="+1-649">+1-649
+                    </option>
+                    <option value="+1-340">+1-340
+                    </option>
+                    <option value="+1-809">+1-809
+                    </option>
+                  </select>
+                </div>
+                <div id="formElement6" class="col-md-12">
+                  <label for="fe63680" class="form-label">Teléfono<span>*</span></label>
+                  <input type="text" class="form-control" name="busPhone" id="fe63680" value="">
+                </div>
+                <div class="col-md-12">
+                  <label for="fe63681" class="form-label">Industria<span>*</span></label>
+                  <select class="form-select" id="fe63681" name="industry1" data-value="">
+                    <option value="" selected>Por favor seleccione</option>
+                    <option value="Education">Educación
+                    </option>
+                    <option value="Fire and Emergency Medical Services">Servicios médicos de emergencia y bomberos
+                    </option>
+                    <option value="Healthcare">Cuidado de la salud
+                    </option>
+                    <option value="Hospitality and Retail">Hospitalidad y venta al por menor
+                    </option>
+                    <option value="Manufacturing">Fabricación
+                    </option>
+                    <option value="Mining, Oil and Gas">Minería, petróleo y gas
+                    </option>
+                    <option value="National Government Security">Seguridad del gobierno nacional
+                    </option>
+                    <option value="Police">Policía
+                    </option>
+                    <option value="Public Services (non-Public Safety Government)">Servicio Públicos (Organismos de Gobierno que no sean de Seguridad Pública)
+                    </option>
+                    <option value="Telecommunications, Finance, and General Management Services">Servicios de telecomunicaciones, finanzas y administración general
+                    </option>
+                    <option value="Transportation and Logistics">Transporte y logística
+                    </option>
+                    <option value="Utilities">Electricidad/Agua
+                    </option>
+                  </select>
+                </div>
+                <div class="col-12 pt-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="OptIn" id="fe63682" checked="checked">
+                    <label class="form-check-label" for="fe63682">
+                      Sí, me gustaría recibir actualizaciones, noticias de productos y materiales promocionales de Motorola Solutions. Por favor, revise nuestra <a href="https://www.motorolasolutions.com/es_xl/about/privacy-policy.html?_gl=1*tbhbs4*_ga*MTExOTA1MTgwMC4xNzA0ODI1MjM3*_ga_23THW5EV9N*MTcwNDgyNTIzNy4xLjEuMTcwNDgyNzQ3OS42MC4wLjA.#highlights" target="_blank">Política de Privacidad</a> para mayor información.
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" id="fe63691">Enviar</button>
+                </div>
+                <input type="hidden" name="phone" id="fe63683" value="">
+                <input type="hidden" name="referrerURL" id="fe63684" value="">
+                <input type="hidden" name="activity-id" id="fe63685" value="">
+                <input type="hidden" name="redirect-url" id="fe63686" value="https://www.motorolasolutions.com/es_xl/engage/webapp/fixed-video-es.html#thanks">
+                <input type="hidden" name="ga-client-id" id="fe63687" value="">
+                <input type="hidden" name="source" id="fe63688" value="">
+                <input type="hidden" name="medium" id="fe63689" value="">
+                <input type="hidden" name="channel" id="fe63690" value="">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Form -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script type="text/javascript" src="https://img04.en25.com/i/livevalidation_standalone.compressed.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var hashText = window.location.hash.substr();
+      if (hashText=="#thanks"){
+        console.log(hashText);
+        $('#thanksModal').modal('show');
+      }
+    });
+  </script>
+  <script>function handleFormSubmit(ele) {
+      var submitButton = ele.querySelector('input[type=submit]');
+      var spinner = document.createElement('span');
+      spinner.setAttribute('class', 'loader');
+      submitButton.setAttribute('disabled', true);
+      submitButton.style.cursor = 'wait';
+      submitButton.parentNode.appendChild(spinner);
+      return true;
+    }
+    function resetSubmitButton(e){
+      var submitButtons = e.target.form.getElementsByClassName('submit-button');
+      for(var i=0;i<submitButtons.length;i++){
+        submitButtons[i].disabled = false;
+      }
+    }
+    function addChangeHandler(elements){
+      for(var i=0; i<elements.length; i++){
+        elements[i].addEventListener('change', resetSubmitButton);
+      }
+    }
+    var form = document.getElementById('form4290');
+    addChangeHandler(form.getElementsByTagName('input'));
+    addChangeHandler(form.getElementsByTagName('select'));
+    addChangeHandler(form.getElementsByTagName('textarea'));
+    var nodes = document.querySelectorAll('#form4290 input[data-subscription]');
+    if (nodes) {
+      for (var i = 0, len = nodes.length; i < len; i++) {
+        var status = nodes[i].dataset ? nodes[i].dataset.subscription : nodes[i].getAttribute('data-subscription');
+        if(status ==='true') {
+          nodes[i].checked = true;
+        }
+      }
+    };
+    var nodes = document.querySelectorAll('#form4290 select[data-value]');
+    if (nodes) {
+      for (var i = 0; i < nodes.length; i++) {
+        var node = nodes[i];
+        var selectedValue = node.dataset ? node.dataset.value : node.getAttribute('data-value');
+        if (selectedValue) {
+          for (var j = 0; j < node.options.length; j++) {
+            if(node.options[j].value === selectedValue) {
+              node.options[j].selected = 'selected';
+              break;
+            }
+          }
+        }
+      }
+    }
+    this.getParentElement = function(list) {
+      return list[list.length-1].parentElement};
+    var dom0 = document.querySelector('#form4290 #fe63674');
+    var fe63674 = new LiveValidation(dom0, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    fe63674.add(Validate.Presence, {
+      failureMessage:"This field is required"}
+               );
+    fe63674.add(Validate.Length, {
+      tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+               );
+    fe63674.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(<([^>]+)>)/ig);
+      }
+      , failureMessage: "Value must not contain any HTML"}
+               );
+    fe63674.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+      }
+      , failureMessage: "Value must not contain any URL's"}
+               );
+    var dom1 = document.querySelector('#form4290 #fe63675');
+    var fe63675 = new LiveValidation(dom1, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    fe63675.add(Validate.Presence, {
+      failureMessage:"This field is required"}
+               );
+    fe63675.add(Validate.Length, {
+      tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+               );
+    fe63675.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(<([^>]+)>)/ig);
+      }
+      , failureMessage: "Value must not contain any HTML"}
+               );
+    fe63675.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+      }
+      , failureMessage: "Value must not contain any URL's"}
+               );
+    var dom2 = document.querySelector('#form4290 #fe63676');
+    var fe63676 = new LiveValidation(dom2, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    fe63676.add(Validate.Presence, {
+      failureMessage:"This field is required"}
+               );
+    fe63676.add(Validate.Format, {
+      pattern: /(^[A-Z0-9!#\$%&'\*\+\-\/=\?\^_`\{\|\}~][A-Z0-9!#\$%&'\*\+\-\/=\?\^_`\{\|\}~\.]{0,62}@(([A-Z0-9](?:[A-Z0-9\-]{0,61}[A-Z0-9])?)(\.[A-Z0-9](?:[A-Z0-9\-]{0,61}[A-Z0-9])?)+)$)/i, failureMessage: "A valid email address is required"}
+               );
+    fe63676.add(Validate.Format, {
+      pattern: /\.\.|\.@/i, failureMessage: "A valid email address is required", negate: "true"}
+               );
+    var dom3 = document.querySelector('#form4290 #fe63677');
+    var fe63677 = new LiveValidation(dom3, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    fe63677.add(Validate.Presence, {
+      failureMessage:"This field is required"}
+               );
+    fe63677.add(Validate.Length, {
+      tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+               );
+    fe63677.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(<([^>]+)>)/ig);
+      }
+      , failureMessage: "Value must not contain any HTML"}
+               );
+    fe63677.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+      }
+      , failureMessage: "Value must not contain any URL's"}
+               );
+    var dom4 = document.querySelector('#form4290 #fe63678');
+    var fe63678 = new LiveValidation(dom4, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    var dom5 = document.querySelector('#form4290 #fe63679');
+    var fe63679 = new LiveValidation(dom5, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    var dom6 = document.querySelector('#form4290 #fe63680');
+    var fe63680 = new LiveValidation(dom6, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    fe63680.add(Validate.Numericality, {
+      tooLowMessage:"Invalid numeric value", tooHighMessage:"Invalid numeric value", minimum: 1, maximum: 9999999999}
+               );
+    fe63680.add(Validate.Presence, {
+      failureMessage:"This field is required"}
+               );
+    var dom7 = document.querySelector('#form4290 #fe63681');
+    var fe63681 = new LiveValidation(dom7, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    fe63681.add(Validate.Presence, {
+      failureMessage:"This field is required"}
+               );
+    var dom8 = document.querySelector('#form4290 #fe63682');
+    var fe63682 = new LiveValidation(dom8, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+  </script>
+
+</body>
+
+</html>

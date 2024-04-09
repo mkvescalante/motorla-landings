@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Motorola Solutions</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <meta name="locale" content="pt_xl"> 
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- JQUERY -->
+  <script src="assets/vendor/jquery/jquery-3.7.1.min.js"></script>
+  <!-- Tealium and Trustarc-->
+  <script src="https://consent.trustarc.com/notice?domain=motorolasolutions.com&c=teconsent&js=nj&noticeType=bb&gtm=1&text=true&language=es" crossorigin></script>
+    <script>
+    /** Add utag.js | This is self executing function.*/
+    (function (a, b, c, d) {
+      a = '//tags.tiqcdn.com/utag/motorola/main/prod/utag.js';
+      b = document;
+      c = 'script';
+      d = b.createElement(c);
+      d.src = a;
+      d.type = 'text/java' + c;
+      d.async = true;
+      a = b.getElementsByTagName(c)[0];
+      a.parentNode.insertBefore(d, a);
+    })();
+    $(function () {
+      activityID();
+      setInterval(passUTMparams, 1000);
+    });
+  </script>
+
+</head>
+
+<body>
+  <!-- Tealium -->
+  <script type="text/javascript">
+    const urlParams1 = new URLSearchParams(window.location.search);
+    const contactId = urlParams1.get("utm_contactId");
+    var elq_contact_id;
+    //Reading and assigning value for Contact ID
+    if (contactId != "" && contactId != "undefined" && contactId != null) {
+        elq_contact_id = contactId;
+    } else {
+        elq_contact_id = "No Value";
+    }
+  </script>
+  <script>
+    // <![CDATA[
+    var uri = document.location.pathname;
+    var utag_data = {
+        "page_name": document.title,
+        "page_uri": "/" + document.getElementsByTagName("meta")["locale"].content + "/webApp" + uri,
+        "locale": document.getElementsByTagName("meta")["locale"].content,
+        "page_type": "landing",
+        "campaign_code": document.getElementsByTagName("meta")["keywords"].content,
+        "elq_contact_id":elq_contact_id
+    }
+    // ]]>
+  </script>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+      <a href="index.html" class="logo me-auto" data-uet = '{
+"link-type": "link",
+"link-label": "home",
+"link-url": "index.html",
+"link-place": "1",
+"restriction": "public",
+"cname": "image click",
+"page-area": "1"
+}'
+>
+        <img src="assets/img/motorola_solutions.png" alt="Motorola" class="img-fluid">
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <!--
+          <li><a class="nav-link scrollto" href="#contact">Cámaras Corporales V500 y VB400</a></li>
+          <li><a class="nav-link scrollto" href="#contact">VideoManager</a></li>
+          -->
+          <li>
+            <a class="contactus" href="#" data-bs-toggle="modal" data-bs-target="#contactModal" data-uet = '{
+"link-type": "button",
+"link-label": "Entre em contato",
+"link-url": "#contactModal",
+"link-place": "1",
+"restriction": "public",
+"cname": "Contact popup",
+"page-area": "12"
+}'>
+              Entre em contato
+            </a>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Assuma o controle da situação com a câmera corporal V500</h1>
+          <h2>Conectividade sem esforço</h2>
+          <p>
+            <strong>Conheça sua melhor testemunha.</strong> A câmera corporal V500 é uma evolução radical que permite que as agências de segurança pública melhorem a segurança, a aplicação da lei e a transparência em suas comunidades, capturando e transmitindo ao vivo evidências de vídeo essenciais por LTE ou WiFi.
+          </p>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#" class="btn-get-started" data-bs-toggle="modal" data-bs-target="#contactModal" data-uet = '{
+"link-type": "Button",
+"link-label": "Contato",
+"link-url": "#contactModal",
+"link-place": "2",
+"restriction": "public",
+"cname": "hero",
+"page-area": "12"
+}'>
+              Solicitar mais informações
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <main id="main">
+
+    <!-- ======= Services Section ======= -->
+    <section id="cards" class="cards">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Conectividade sem esforço. Informações confiáveis.</h2>
+          <p>
+          Concentre-se em sua missão, não na tecnologia. Aproveite a conectividade avançada do V500 para monitorar eventos, 
+          processar evidências e gerenciar dispositivos enquanto sua equipe está em campo.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-4 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="card text-center">
+              <img src="assets/img/moto_ico_1.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Entenda os eventos à medida que eles acontecem</h5>
+                <p class="card-text">
+                  Veja o que seus agentes veem em tempo real para melhorar a consciência situacional e coordenar uma resposta mais eficaz, onde quer que você esteja.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="500">
+            <div class="card text-center">
+              <img src="assets/img/moto_ico_2.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Download sob demanda</h5>
+                <p class="card-text">
+                  Comece a construir seu caso o mais rápido possível. Obtenha gravações via LTE enquanto os agentes ainda estão em campo ou use o recurso de download rápido do Smart Dock.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="1000">
+            <div class="card text-center">
+              <img src="assets/img/moto_ico_3.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Gerencie o hardware de qualquer lugar</h5>
+                <p class="card-text">
+                  Implante suas câmeras como desejar e minimize o tempo de inatividade enquanto os agentes estiverem trabalhando graças ao gerenciamento remoto.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ======= Product Section ======= -->
+    <section id="product" class="product">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title-inner pb-5">
+          <h2>Documente e evite incidentes com uma câmera corporal intuitiva que se adapta à sua maneira de trabalhar.</h2>
+          <a href="https://www.motorolasolutions.com/content/dam/msi/docs/V500_Brochure_PT.pdf" target="_blank" class="btn-learn-more" data-uet = '{
+"link-type": "Link",
+"link-label": "Faça o download do folheto",
+"link-url": "https://www.motorolasolutions.com/content/dam/msi/docs/V500_Brochure_PT.pdf",
+"link-place": "2",
+"restriction": "public",
+"cname": "Producto",
+"page-area": "2"
+}'>
+            Faça o download do folheto
+          </a>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6 pt-2 pb-2 pt-lg-0 d-flex justify-content-center align-items-center">
+            <img src="assets/img/v500_camara_low.png" class="img-fluid">
+          </div>
+          <div class="col-lg-6">
+            <ul>
+              <li><i class="ri-circle-fill"></i>
+                <strong>Transmissão por LTE ou WiFi</strong>
+                A conectividade LTE de ponta a ponta do V500 e sua capacidade de oferecer suporte a qualquer operadora de rede que você escolher permitem que você veja os eventos à medida que eles acontecem. Assim, se o trabalho tirar a sua equipe do alcance do Wi-Fi, você ainda poderá ver o que precisa ver, quando precisa ver.
+              </li>
+              <li><i class="ri-circle-fill"></i>
+                <strong>Integração com VMS de terceiros:</strong>
+                Com a capacidade de transmitir para seus investimentos em tecnologia existentes, você pode aproveitar o máximo de informações para tomar as melhores decisões possíveis.
+              </li>
+              <li><i class="ri-circle-fill"></i>
+                <strong>Certificação MIL-STD-810H e classificação IP67</strong>
+                Com um exterior robusto resistente a vento, chuva e temperaturas extremas, as câmeras corporais suportam os rigores de qualquer ambiente.
+              </li>
+              <li><i class="ri-circle-fill"></i>
+                <strong>Excelente qualidade de vídeo e capacidade de armazenamento de 128 GB</strong>
+                Perder provas não é uma opção. Capture vídeos de alta definição com memórias de pré-gravação e pós-gravação para um turno completo, com horas extras e tudo.
+              </li>
+              <li><i class="ri-circle-fill"></i>
+                <strong>Botões configuráveis e comportamento de gravação</strong>
+                Personalize a câmera de acordo com a sua função e as suas tarefas. Use tantos ou poucos controles quantos forem necessários e ative sons, vibrações e LEDs.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= CTA Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title-inner pb-5">
+          <h2>Transforme inteligência em evidência</h2>
+          <p>
+            As câmeras corporais são uma parte essencial da sua operação, mas são apenas o começo. Vá além da câmera corporal, aproveitando o poder do ecossistema de tecnologia de ponta a ponta da Motorola Solutions para manter sua equipe - e o público - seguros.
+          </p>
+          <img src="assets/img/V500_videomanager1.gif" class="img-fluid">
+          <h3 class="pt-5">
+            Pronto para experimentar as câmeras corporais em ação?
+            <span>Nossos especialistas estão à disposição para explicar suas opções.</span>
+          </h3>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#contactModal" class="btn-learn-more" data-uet = '{
+"link-type": "Button",
+"link-label": "Contato",
+"link-url": "#contactModal",
+"link-place": "2",
+"restriction": "public",
+"cname": "hero",
+"page-area": "12"
+}'>
+            Fale com um especialista em câmeras corporais
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div class="logo">
+            <img src="assets/img/motorola_white.png" class="img-fluid" alt="Motorola Solutions">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="social-links">
+              <p>Participe da conversa:</p>
+              <a href="https://www.facebook.com/MotorolaSolutionsLatAm" class="facebook" data-uet = '{
+"link-type": "link",
+"link-label": "Facebook",
+"link-url": "https://www.facebook.com/MotorolaSolutionsLatAm",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a href="https://twitter.com/MotorolaLatAm" class="twitter" data-uet = '{
+"link-type": "link",
+"link-label": "Twitter",
+"link-url": "https://twitter.com/MotorolaLatAm",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                <i class="ri-twitter-x-line"></i>
+              </a>
+              <a href="https://www.youtube.com/user/videosdemotorola" class="youtube" data-uet = '{
+"link-type": "link",
+"link-label": "Youtube",
+"link-url": "https://www.youtube.com/user/videosdemotorola",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                <i class="ri-youtube-fill"></i>
+              </a>
+              <a href="http://www.linkedin.com/company/motorola-solutions-america-latina-y-caribe?" class="linkedin" data-uet = '{
+"link-type": "link",
+"link-label": "Linkedin",
+"link-url": "http://www.linkedin.com/company/motorola-solutions-america-latina-y-caribe",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                <i class="ri-linkedin-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/motorolasolutionslatam" class="instagram" data-uet = '{
+"link-type": "link",
+"link-label": "Instagram",
+"link-url": "https://www.instagram.com/motorolasolutionslatam",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                <i class="ri-instagram-line"></i>
+              </a> 
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12">
+          <p class="pt-2">
+            MOTOROLA, MOTO, MOTOROLA SOLUTIONS e o logotipo M estilizado são marcas comerciais ou marcas registradas da Motorola.
+          </p>
+          <p class="pt-0">
+            Trademark Holdings, LLC e são usados sob licença. Todas as outras marcas registradas são propriedade de seus respectivos proprietários.
+          </p>
+          <p class="pt-0">
+            © 2024 Motorola Solutions, Inc. Todos os direitos reservados.
+          </p>
+        
+          <div class="menu-bottom">
+            <ul>
+              <li>
+                <a href="https://www.motorolasolutions.com/pt_xl/about/privacy-policy.html?_gl=1*tbhbs4*_ga*MTExOTA1MTgwMC4xNzA0ODI1MjM3*_ga_23THW5EV9N*MTcwNDgyNTIzNy4xLjEuMTcwNDgyNzQ3OS42MC4wLjA.#highlights" target="_blank" data-uet = '{
+"link-type": "link",
+"link-label": "Privacidad",
+"link-url": "https://www.motorolasolutions.com/pt_xl/about/privacy-policy.html",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                  Políticas de privacidade
+                </a>
+              </li>
+              <li>
+                <a href="https://www.motorolasolutions.com/pt_xl/preference-center-form.html?_gl=1*wtw8mx*_ga*OTY5NjA5ODA2LjE3MDcyNDM2MTY.*_ga_23THW5EV9N*MTcwNzI1MjczMC4zLjEuMTcwNzI1MzczNC41OC4wLjA." target="_blank" data-uet = '{
+"link-type": "link",
+"link-label": "Preferencias de comunicación",
+"link-url": "https://www.motorolasolutions.com/pt_xl/preference-center-form.html",
+"link-place": "3",
+"restriction": "public",
+"cname": "footer",
+"page-area": "3"
+}'>
+                  Preferências de Comunicação
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </footer>
+  <!-- Thanks Modal -->
+  <div class="modal fade" id="thanksModal" tabindex="-1" role="dialog" aria-labelledby="Thanks" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-5">
+          <div class="text-center pb-3">
+            <img src="assets/img/favicon.png" alt="Motorola" class="img-fluid" style="max-height:40px">
+          </div>
+          <h3 class="text-center text-dark" style="font-size:30px">
+            Obrigado por seu interesse! 
+          </h3>
+          <p class="text-center text-dark" style="font-size:22px">
+            Nossos especialistas entrarão em contato com você em breve. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Thanks Modal -->
+
+  <!-- Modal Form -->
+  <!-- Contacto -->
+  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="Registro" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body contact">
+          <div class="container modal-form" data-aos="fade-up">
+            <div class="hero-form">
+              <h3 class="text-center">
+                Contate-nos
+              </h3>
+              <form method="post" name="V500_Landing_PT" action="https://s1013191099.t.eloqua.com/e/f2" onsubmit="return handleFormSubmit(this)" id="form4310" class="row gx-3 gy-2">
+                <input value="V500_Landing_PT" type="hidden" name="elqFormName">
+                <input value="1013191099" type="hidden" name="elqSiteId">
+                <input name="elqCampaignId" type="hidden">
+                <div class="col-md-12">
+                  <label for="fe63926" class="form-label">Nome</label>
+                  <input type="text" class="form-control" name="firstName" id="fe63926">
+                </div>
+                <div class="col-md-12">
+                  <label for="fe63927" class="form-label">Sobrenome</label>
+                  <input type="text" class="form-control" name="lastName" id="fe63927">
+                </div>
+                <div class="col-md-12">
+                  <label for="fe63928" class="form-label">Email<span>*</span></label>
+                  <input type="text" class="form-control" name="emailAddress" id="fe63928">
+                </div>
+                <div class="col-md-12">
+                  <label for="fe63929" class="form-label">Telefone</label>
+                  <input type="text" class="form-control" name="busPhone" id="fe63929" value="">
+                </div>
+                <div class="col-md-12">
+                  <label for="fe63930" class="form-label">Empresa</label>
+                  <input type="text" class="form-control" name="company" id="fe63930">
+                </div>
+                <div class="col-md-12">
+                  <label for="fe63931" class="form-label">Titulo do trabalho</label>
+                  <input type="text" class="form-control" name="title" id="fe63931">
+                </div>
+                <div class="col-md-12">
+                  <label for="fe63932" class="form-label">País</label>
+                  <select class="form-select"  id="fe63932" name="country" data-value="">
+                    <option value="BR">Brasil
+                    </option>
+                  </select>
+                </div>
+                <div class="col-md-12">
+                  <label for="fe63933" class="form-label">Código de País</label>
+                  <select class="form-select" id="fe63933" name="countryCode" data-value="">
+                    <option value="+55">+55
+                    </option>
+                  </select>
+                </div>
+                <div class="col-md-12">
+                  <label for="fe63934" class="form-label">Indústria</label>
+                  <select class="form-select" id="fe63934" name="industry1" data-value="">
+                    <option value="" selected>Por favor seleccione</option>
+                    <option value="Education">Educação
+                    </option>
+                    <option value="Fire and Emergency Medical Services">Serviços médicos de emergência e Incêndio 
+                    </option>
+                    <option value="Healthcare">Cuidados de saúde
+                    </option>
+                    <option value="Hospitality and Retail">Hospitalidade e Varejo
+                    </option>
+                    <option value="Manufacturing">Fabricação
+                    </option>
+                    <option value="Mining, Oil and Gas">Mineração, Petróleo e Gás
+                    </option>
+                    <option value="National Government Security">Segurança Nacional
+                    </option>
+                    <option value="Police">Polícia
+                    </option>
+                    <option value="Public Services (non-Public Safety Government)">Serviços públicos (governo que não é de segurança pública)
+                    </option>
+                    <option value="Telecommunications, Finance, and General Management Services">Telecomunicações, Finanças e Serviços de Gestão Geral
+                    </option>
+                    <option value="Transportation and Logistics">Transporte e Logística
+                    </option>
+                    <option value="Utilities">Eletricidade / Água
+                    </option>
+                  </select>
+                </div>
+                <div class="col-md-12">
+                  <label for="fe63935" class="form-label">Segmento</label>
+                  <select class="form-select" id="fe63935" name="segment1" data-value="">
+                    <option value="" selected>Por favor seleccione</option>
+                    <option value="Public Administration">Administração pública
+                    </option>
+                    <option value="Agriculture">Agricultura
+                    </option>
+                    <option value="Water">Água
+                    </option>
+                    <option value="Food and Beverage">Alimentos e bebidas
+                    </option>
+                    <option value="High-Tech, Industrial, Electrical, Medical Equipment, and Pharmaceuticals">Alta tecnologia, industrial, elétrica, equipamento médico e farmacêutica
+                    </option>
+                    <option value="Fire">Bombeiros
+                    </option>
+                    <option value="Warehouse Clubs and Hypermarkets">Clubes de compras e hipermercados
+                    </option>
+                    <option value="Sports Clubs and Venues - Stadiums, Ballparks, Arenas">Clubes e instalações esportivas - estádios, estádios de beisebol, arenas
+                    </option>
+                    <option value="Codes, Permitting and Inspections">Códigos, permissões e inspeções
+                    </option>
+                    <option value="Airlines and Airports">Companhias aéreas e aeroportos
+                    </option>
+                    <option value="Construction">Construção
+                    </option>
+                    <option value="Post and Parcel - Couriers">Correio e encomendas - Couriers
+                    </option>
+                    <option value="Wholesale Distribution">Distribuição atacadista
+                    </option>
+                    <option value="Service Retailers">Distribuidores de serviços
+                    </option>
+                    <option value="Electricity">Eletricidade
+                    </option>
+                    <option value="Rental Car Companies">Empresas de aluguel de carros
+                    </option>
+                    <option value="Warehouse and Storage Companies">Empresas de depósito e armazenagem
+                    </option>
+                    <option value="Service Management Companies ">Empresas de gerenciamento de serviços
+                    </option>
+                    <option value="Entertainment - Cruise Ships, Amusement Parks, Theaters">Entretenimento - cruzeiros, parques de diversões, teatros
+                    </option>
+                    <option value="Transportation Equipment">Equipamento de transporte
+                    </option>
+                    <option value="Primary and Secondary Schools - K-12">Escolas primárias e secundárias - K-12
+                    </option>
+                    <option value="Chemical Manufacturing, Metal Industries and Goods">Fabricação de produtos químicos, indústrias metalúrgicas e bens
+                    </option>
+                    <option value="Colleges and Universities - Higher Education">Faculdades e universidades - Educação superior
+                    </option>
+                    <option value="Pharmacies and Drug Stores - Health and Beauty">Farmácias e drugstores - saúde e beleza
+                    </option>
+                    <option value="Railways and Railroad Operations">Ferrovias e operações ferroviárias
+                    </option>
+                    <option value="Finance, Insurance, Legal and Real Estate">Finanças, seguros, jurídicos e imobiliários
+                    </option>
+                    <option value="Forestry">Florestação
+                    </option>
+                    <option value="Military and Defense">Forças armadas e de defesa
+                    </option>
+                    <option value="Facilities Management and Private Security">Gerenciamento de instalações e segurança privada
+                    </option>
+                    <option value="Mass Merchants and Discount Stores">Grandes comerciantes e lojas de desconto
+                    </option>
+                    <option value="Hospitals and Health Systems">Hospitais e sistemas de saúde
+                    </option>
+                    <option value="Hotels, Resorts, Casinos and Convention Centers">Hotéis, centros turísticos, cassinos, e centros de convenções
+                    </option>
+                    <option value="HVAC and Industrial Equipment Installation and Repair">Instalação e reparo de equipamentos industriais e HVAC
+                    </option>
+                    <option value="Retirement and Rehabilitation Facilities">Instalações de aposentadoria e reabilitação
+                    </option>
+                    <option value="Convenience Stores">Lojas de conveniência
+                    </option>
+                    <option value="Department Stores">Lojas de departamento
+                    </option>
+                    <option value="Specialty Hard Goods Stores">Lojas especializadas em bens duráveis
+                    </option>
+                    <option value="Specialty Apparel and Fashion Stores">Lojas especializadas em roupas e moda
+                    </option>
+                    <option value="Specialist Physician, General Practices, and Community Clinics">Médico especialista, práticas gerais e clínicas comunitárias
+                    </option>
+                    <option value="Environment, Land Management, Parks and Wildlife">Meio ambiente, gerenciamento de terras, parque e vida selvagem
+                    </option>
+                    <option value="Mining">Mineração
+                    </option>
+                    <option value="Public Works">Obras públicas
+                    </option>
+                    <option value="Government Network Operators">Operadoras de rede do governo
+                    </option>
+                    <option value="Professional and Commercial Radio Network Operators">Operadores de estação de rádio
+                    </option>
+                    <option value="Telecom and Cable Operators">Operadores de telecomunicações e de cabo
+                    </option>
+                    <option value="Paper, Print and Publishing">Papel, impressão e publicação
+                    </option>
+                    <option value="Investigation and Enforcement">Pesquisa e cumprimento
+                    </option>
+                    <option value="Oil and Gas - Petrochemical">Petróleo e gás - Petroquímica
+                    </option>
+                    <option value="Police">Polícia
+                    </option>
+                    <option value="Wireless Internet Service Providers">Provedores de serviços de Internet sem fio
+                    </option>
+                    <option value="Emergency Response">Resposta a emergências
+                    </option>
+                    <option value="Restaurants and Bars">Restaurantes e bares
+                    </option>
+                    <option value="Border and Coastal Security">Segurança de fronteira e costeira
+                    </option>
+                    <option value="National Security">Segurança Nacional 
+                    </option>
+                    <option value="Passenger Water Service">Serviço de água para passageiros
+                    </option>
+                    <option value="Taxi, Bus and Limo Service">Serviço de táxi, ônibus e limusine
+                    </option>
+                    <option value="Emergency Medical Service">Serviços de emergências médicas
+                    </option>
+                    <option value="Health, Human and Social Services">Serviços de saúde, humanos e sociais
+                    </option>
+                    <option value="Corrections">Sistema correcional
+                    </option>
+                    <option value="Supermarkets and Food Product Stores">Supermercados e lojas de produtos alimentícios
+                    </option>
+                    <option value="Textiles and Apparel, Consumer Packaged Goods">Têxtil e indumentária, bens de consumo embalados
+                    </option>
+                    <option value="Government Transportation">Transporte de governo
+                    </option>
+                    <option value="Maritime Shipping and Seaport Operations">Transporte marítimo e operações portuárias
+                    </option>
+                    <option value="Trucking and Air Cargo Freight">Transporte por caminhões e carga aérea
+                    </option>
+                    <option value="Public Transit">Transporte público
+                    </option>
+                  </select>
+                </div>
+                <div class="col-12 pt-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="emailoptin" id="fe63943" checked="checked">
+                    <label class="form-check-label" for="fe63943">
+                      Sim, eu gostaria de receber atualizações, notícias do produto e materiais promocionais das soluções da Motorola Solutions. Por favor, revise a nossa <a href="https://www.motorolasolutions.com/pt_xl/about/privacy-policy.html?_gl=1*t1dd5c*_ga*MTA0MDE1MDAzNS4xNzEyMDc2MDU4*_ga_23THW5EV9N*MTcxMjA3NjA1Ny4xLjAuMTcxMjA3NjA1Ny42MC4wLjA.#highlights" target="_blank">declaração de privacidade</a> para mais detalhes.
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" id="fe63944">Envair</button>
+                </div>
+                <input type="hidden" name="phone" id="fe63936" value="">
+                <input type="hidden" name="referrerURL" id="fe63724" value="">
+                <input type="hidden" name="activity-id" id="fe63940" value="">
+                <input type="hidden" name="redirect-url" id="fe63942" value="https://www.motorolasolutions.com/es_xl/engage/webapp/V500-pt.html#thanks">
+                <input type="hidden" name="ga-client-id" id="fe63941" value="">
+                <input type="hidden" name="source" id="fe63937" value="">
+                <input type="hidden" name="medium" id="fe63938" value="">
+                <input type="hidden" name="channel" id="fe63939" value="">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Form -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script type="text/javascript" src="https://img04.en25.com/i/livevalidation_standalone.compressed.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var hashText = window.location.hash.substr();
+      if (hashText=="#thanks"){
+        console.log(hashText);
+        $('#thanksModal').modal('show');
+      }
+    });
+  </script>
+  <script>function handleFormSubmit(ele) {
+      var submitButton = ele.querySelector('input[type=submit]');
+      var spinner = document.createElement('span');
+      spinner.setAttribute('class', 'loader');
+      submitButton.setAttribute('disabled', true);
+      submitButton.style.cursor = 'wait';
+      submitButton.parentNode.appendChild(spinner);
+      return true;
+    }
+    function resetSubmitButton(e){
+      var submitButtons = e.target.form.getElementsByClassName('submit-button');
+      for(var i=0;i<submitButtons.length;i++){
+        submitButtons[i].disabled = false;
+      }
+    }
+    function addChangeHandler(elements){
+      for(var i=0; i<elements.length; i++){
+        elements[i].addEventListener('change', resetSubmitButton);
+      }
+    }
+    var form = document.getElementById('form4310');
+    addChangeHandler(form.getElementsByTagName('input'));
+    addChangeHandler(form.getElementsByTagName('select'));
+    addChangeHandler(form.getElementsByTagName('textarea'));
+    var nodes = document.querySelectorAll('#form4310 input[data-subscription]');
+    if (nodes) {
+      for (var i = 0, len = nodes.length; i < len; i++) {
+        var status = nodes[i].dataset ? nodes[i].dataset.subscription : nodes[i].getAttribute('data-subscription');
+        if(status ==='true') {
+          nodes[i].checked = true;
+        }
+      }
+    };
+    var nodes = document.querySelectorAll('#form4310 select[data-value]');
+    if (nodes) {
+      for (var i = 0; i < nodes.length; i++) {
+        var node = nodes[i];
+        var selectedValue = node.dataset ? node.dataset.value : node.getAttribute('data-value');
+        if (selectedValue) {
+          for (var j = 0; j < node.options.length; j++) {
+            if(node.options[j].value === selectedValue) {
+              node.options[j].selected = 'selected';
+              break;
+            }
+          }
+        }
+      }
+    }
+    this.getParentElement = function(list) {
+      return list[list.length-1].parentElement};
+    var dom0 = document.querySelector('#form4310 #fe63926');
+    var fe63926 = new LiveValidation(dom0, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    fe63926.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+      }
+      , failureMessage: "Value must not contain any URL's"}
+               );
+    fe63926.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(<([^>]+)>)/ig);
+      }
+      , failureMessage: "Value must not contain any HTML"}
+               );
+    fe63926.add(Validate.Length, {
+      tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+               );
+    var dom1 = document.querySelector('#form4310 #fe63927');
+    var fe63927 = new LiveValidation(dom1, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    fe63927.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+      }
+      , failureMessage: "Value must not contain any URL's"}
+               );
+    fe63927.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(<([^>]+)>)/ig);
+      }
+      , failureMessage: "Value must not contain any HTML"}
+               );
+    fe63927.add(Validate.Length, {
+      tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+               );
+    var dom2 = document.querySelector('#form4310 #fe63928');
+    var fe63928 = new LiveValidation(dom2, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    fe63928.add(Validate.Presence, {
+      failureMessage:"This field is required"}
+               );
+    fe63928.add(Validate.Format, {
+      pattern: /(^[A-Z0-9!#\$%&'\*\+\-\/=\?\^_`\{\|\}~][A-Z0-9!#\$%&'\*\+\-\/=\?\^_`\{\|\}~\.]{0,62}@(([A-Z0-9](?:[A-Z0-9\-]{0,61}[A-Z0-9])?)(\.[A-Z0-9](?:[A-Z0-9\-]{0,61}[A-Z0-9])?)+)$)/i, failureMessage: "A valid email address is required"}
+               );
+    fe63928.add(Validate.Format, {
+      pattern: /\.\.|\.@/i, failureMessage: "A valid email address is required", negate: "true"}
+               );
+    var dom3 = document.querySelector('#form4310 #fe63929');
+    var fe63929 = new LiveValidation(dom3, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    fe63929.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+      }
+      , failureMessage: "Value must not contain any URL's"}
+               );
+    fe63929.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(<([^>]+)>)/ig);
+      }
+      , failureMessage: "Value must not contain any HTML"}
+               );
+    fe63929.add(Validate.Length, {
+      tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+               );
+    var dom4 = document.querySelector('#form4310 #fe63930');
+    var fe63930 = new LiveValidation(dom4, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    fe63930.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+      }
+      , failureMessage: "Value must not contain any URL's"}
+               );
+    fe63930.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(<([^>]+)>)/ig);
+      }
+      , failureMessage: "Value must not contain any HTML"}
+               );
+    fe63930.add(Validate.Length, {
+      tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+               );
+    var dom5 = document.querySelector('#form4310 #fe63931');
+    var fe63931 = new LiveValidation(dom5, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    fe63931.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+      }
+      , failureMessage: "Value must not contain any URL's"}
+               );
+    fe63931.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(<([^>]+)>)/ig);
+      }
+      , failureMessage: "Value must not contain any HTML"}
+               );
+    fe63931.add(Validate.Length, {
+      tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+               );
+    var dom6 = document.querySelector('#form4310 #fe63932');
+    var fe63932 = new LiveValidation(dom6, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    var dom7 = document.querySelector('#form4310 #fe63933');
+    var fe63933 = new LiveValidation(dom7, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    var dom8 = document.querySelector('#form4310 #fe63934');
+    var fe63934 = new LiveValidation(dom8, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    var dom9 = document.querySelector('#form4310 #fe63935');
+    var fe63935 = new LiveValidation(dom9, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    var dom17 = document.querySelector('#form4310 #fe63943');
+    var fe63943 = new LiveValidation(dom17, {
+      validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                    );
+    fe63943.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+      }
+      , failureMessage: "Value must not contain any URL's"}
+               );
+    fe63943.add(Validate.Custom, {
+      against: function(value) {
+        return !value.match(/(<([^>]+)>)/ig);
+      }
+      , failureMessage: "Value must not contain any HTML"}
+               );
+  </script>
+
+</body>
+
+</html>
